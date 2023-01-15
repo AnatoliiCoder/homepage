@@ -1,36 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
     <title>Résumé</title>
   </head>
+
   <body>
     <main>
       <div class="resume">
-        <div class="container">
+        <div class="wrapper">
           <div class="resume__block">
-            <h1 class="contact-info__header">Anatolii Petrenko</h1>
-            <h3 class="contact-info__sub-header">CAD QA Engineer</h3>
-
-            <div class="contact_info_container fh">
+            <div class="contact_info_container">
+              <div class="contact_info_header-container">
+                <h1 class="contact-info__header">Anatolii Petrenko</h1>
+                <h3 class="contact-info__sub-header">CAD QA Engineer</h3>
+              </div>
+              <div class="contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/photo.jpg"
+                  alt="Avatar"
+                />
+              </div>
               <div class="contact-info__block">
-                <a href="" rel="author" class="contact-info__item">
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>Sumy, Ukraine</span>
-                </a>
-
                 <a
                   href="https://linkedin.com/in/anatolii-petrenko"
                   rel="author"
@@ -49,20 +43,10 @@
                   </div>
                   <span>Anatolii Petrenko</span>
                 </a>
-              </div>
 
-              <div class="contact-info__block contact-info__block--center">
-                <img
-                  class="contact-info__avatar"
-                  src="assets/photo.jpg"
-                  alt="Avatar"
-                />
-              </div>
-
-              <div class="contact-info__block">
                 <a
                   class="contact-info__item"
-                  href="mailto: anatoliy.petrenko.777@gmail.com"
+                  href="mailto:anatoliy.petrenko.777@gmail.com"
                 >
                   <div class="contact-info__item-icon-wrapper">
                     <svg
@@ -97,220 +81,262 @@
                   </div>
                   <span>Anatolii_Petrenko</span>
                 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="resume__block">
-            <div class="intro">
-              <div class="intro__icon-wrapper">
-                <svg
-                  class="intro__icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
-                  ></path>
-                </svg>
-              </div>
-              <p class="intro_text">
-                Hi, I started my journey in IT as a QA Engineer, but I have a
-                big goal to be useful to business and make the world a better
-                place as a Front-end developer 👨‍💻.
-                <br />
-                Much has already been done for this, but much more lies ahead.
-                🇺🇦
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="resume__block">
-            <div class="skills">
-              <h3 class="skills__header">Skills</h3>
-              <p class="skills__text">
-                <span>Languages: </span><span>HTML, CSS, JavaScript, SQL</span>
-                <br />
-                <span>Libraries: </span><span>React</span>
-                <br />
-                <span>Frameworks: </span><span>Node.js</span>
-                <br />
-                <span>Additional: </span><span>GIT, GitHub</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="resume__block">
-            <div class="main-info fh">
-              <div class="experiences">
-                <h3 class="experiences__header">Experience</h3>
-                <!-- AMC Bridge, Inc. -->
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability"
-                      >Aug 2021 - Aug 2022</span
-                    >
-                    <h3 class="experiences__company-header-name">
-                      AMC Bridge, Inc.
-                    </h3>
-                  </div>
 
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role"
-                      >CAD QA Engineer</span
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
                     >
-                    <h3 class="experiences__company-project-name">
-                      CAD projects
-                    </h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>Smoke, Regression, Full functional testing</li>
-                      <li>Exploratory testing, ad-hoc testing</li>
-                      <li>Creating test documentation</li>
-                      <li>Adding bugs to the bug-tracking system</li>
-                      <li>Running test cases, check-lists</li>
-                    </ul>
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
                   </div>
+                  <span>Sumy, Ukraine</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="intro">
+                <div class="intro__icon-wrapper">
+                  <svg
+                    class="intro__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
                 </div>
-                <!-- Acrylshik -->
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability"
-                      >Apr 2018 - Aug 2021</span
-                    >
-                    <h3 class="experiences__company-header-name">Acrylshik</h3>
+                <p class="intro_text">
+                  <span class="intro_text-part">
+                    Hi, I started my journey in IT as a QA Engineer, but I have
+                    a big goal to be useful to business and make the world a
+                    better place as a Front-end developer 👨‍💻
+                  </span>
+                  <span class="intro_text-part">
+                    Much has already been done for this, but much more lies
+                    ahead. 🇺🇦
+                  </span>
+                  <span class="intro_text-part">
+                    I am goal-oriented and hardworking, so my goal will be
+                    achieved, otherwise, it cannot be!
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="skills">
+                <h3 class="skills__header header-text">Skills</h3>
+                <div class="skills__text">
+                  <div class="skills__text-part-container">
+                    <h3 class="skills__text-part-header">Tech stack</h3>
+                    <p class="skills__text-row">
+                      HTML, CSS, JavaScript, SQL, React, Node.js GIT, GitHub
+                    </p>
                   </div>
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role"
-                      >Head Of Design Department</span
-                    >
-                    <h3 class="experiences__company-project-name"></h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>The work organization of the design department.</li>
-                      <li>
-                        Development of design projects for plexiglass products
-                        in such areas as medical equipment (glove boxes,
-                        desiccators, auxiliary equipment), vacuum equipment
-                        (vacuum chambers), pool structure (transparent walls,
-                        windows), advertising products (advertising stands,
-                        showcases, illuminated signs), car and aircraft
-                        construction (glass, protective covers), deep-sea
-                        vehicles (windows), various installations, acrylic
-                        furniture.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- Sound-house -->
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability"
-                      >Aug 2016 - Mar 2018</span
-                    >
-                    <h3 class="experiences__company-header-name">
-                      Audio and Electronics Store "Sound-house"
-                    </h3>
-                  </div>
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role"
-                      >Sales Manager</span
-                    >
-                    <h3 class="experiences__company-project-name"></h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>Consultation of buyers, sale of goods</li>
-                      <li>Record-keeping</li>
-                      <li>The store's website Acceptance testing</li>
-                      <li>The online store Information support</li>
-                      <li>
-                        Develop a system for updating the price lists of goods
-                        suppliers based on Excel
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- Research and Design Institute for Atomic and Power Pump building -->
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability"
-                      >Apr 2016 - Aug 2016</span
-                    >
-                    <h3 class="experiences__company-header-name">
-                      Public Joint-Stock Company "Research and Design Institute
-                      for Atomic and Power Pump building"
-                    </h3>
-                  </div>
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role"
-                      >Structural Engineer</span
-                    >
-                    <h3 class="experiences__company-project-name"></h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>
-                        Preparation of design documentation of bearing
-                        assemblies of pumps and clutches
-                      </li>
-                      <li>
-                        The coordination of the developed documentation with
-                        other structural divisions
-                      </li>
-                      <li>Support of developments in production</li>
-                    </ul>
+                  <div class="skills__text-part-container">
+                    <h3 class="skills__text-part-header">Languages</h3>
+                    <p class="skills__text-row">Ukrainian (native) 🇺🇦</p>
+                    <p class="skills__text-row">English (Intermediate)</p>
+                    <p class="skills__text-row">Russian (native)</p>
                   </div>
                 </div>
               </div>
-							<!-- PJSC «Sumy NPO» -->
-							<div class="experiences__company">
-								<div class="experiences__company-header">
-									<span class="experiences__company-header-durability"
-										>Feb 2012 - Mar 2016</span
-									>
-									<h3 class="experiences__company-header-name">
-										PJSC «Sumy NPO»
-									</h3>
-								</div>
-								<div class="experiences__company-project">
-									<span class="experiences__company-project-role"
-										>Structural Engineer</span
-									>
-									<h3 class="experiences__company-project-name"></h3>
-									<ul class="experiences__company-project-responsibilities">
-										<li>
-											3D modeling (Inventor, Pro Engineer), preparation of design documentation (AutoCAD) of gas-pumping units
-										</li>
-										<li>Development and accompanying the projected units</li>
-										<li>Air cleaning system calculation (ANSYS CFX)</li>
-										<li>The coordination of the developed documentation with other structural divisions</li>
-										<li>Support of developments in production and commissioning</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+            </div>
+            <div class="container">
+              <div class="resume__block">
+                <div class="main-info">
+                  <div class="experiences">
+                    <h3 class="experiences__header header-text">Experience</h3>
+                    <div class="experiences-container">
+                      <!-- AMC Bridge, Inc. -->
+                      <div class="experiences__company">
+                        <div class="experiences__company-header">
+                          <span class="experiences__company-header-durability">
+                            Aug 2021 - Aug 2022
+                          </span>
+                          <h3 class="experiences__company-header-name">
+                            AMC Bridge, Inc.
+                          </h3>
+                        </div>
 
-              <div class="additional-info fv">
-								<div class="additional-info__education">
-									<h3 class="additional-info__education-header">Education</h3>
-									<div class="additional-info__education-university">
-										<span class="additional-info__education-university-durability">2007-2012</span>
-										<h3 class="additional-info__education-university-speciality">Sumy State University</h3>
-										<p class="additional-info__education-university-name">Studied at the Mechanical Engineering department. Master’s degree in Mechanical Engineering (Diploma with Honors)</p>
-									</div>
-								</div>
-							
-								<div class="additional-info__languages">
-									<h3 class="additional-info__languages-header">Languages</h3>
-									<p class="additional-info__languages-item">
-										Ukrainian (native) 🇺🇦
-									</p>
-									<p class="additional-info__languages-item">
-										English (Intermediate)
-									</p>
-									<p class="additional-info__languages-item">
-										Russian (native)
-									</p>
-								</div>
-							</div>
+                        <div class="experiences__company-project">
+                          <span class="experiences__company-project-role">
+                            CAD QA Engineer
+                          </span>
+                          <ul
+                            class="experiences__company-project-responsibilities"
+                          >
+                            <li>Smoke, Regression, Full functional testing</li>
+                            <li>Exploratory testing, ad-hoc testing</li>
+                            <li>Creating test documentation</li>
+                            <li>Adding bugs to the bug-tracking system</li>
+                            <li>Running test cases, check-lists</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Acrylshik -->
+                      <div class="experiences__company">
+                        <div class="experiences__company-header">
+                          <span class="experiences__company-header-durability">
+                            Apr 2018 - Aug 2021
+                          </span>
+                          <h3 class="experiences__company-header-name">
+                            Acrylshik
+                          </h3>
+                        </div>
+                        <div class="experiences__company-project">
+                          <span class="experiences__company-project-role">
+                            Head Of Design Department
+                          </span>
+                          <ul
+                            class="experiences__company-project-responsibilities"
+                          >
+                            <li>
+                              The work organization of the design department.
+                            </li>
+                            <li>
+                              Development of design projects for plexiglass
+                              products in such areas as medical equipment ,
+                              vacuum equipment , pool structure, advertising
+                              products, car and aircraft construction, deep-sea
+                              vehicles, various installations, acrylic
+                              furniture.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Sound-house -->
+                      <div class="experiences__company">
+                        <div class="experiences__company-header">
+                          <span class="experiences__company-header-durability">
+                            Aug 2016 - Mar 2018
+                          </span>
+                          <h3 class="experiences__company-header-name">
+                            Audio and Electronics Store "Sound-house"
+                          </h3>
+                        </div>
+                        <div class="experiences__company-project">
+                          <span class="experiences__company-project-role">
+                            Technical specialist / Sales Manager
+                          </span>
+                          <ul
+                            class="experiences__company-project-responsibilities"
+                          >
+                            <li>
+                              Developing a small product management system from
+                              scratch
+                            </li>
+                            <li>
+                              Developing the Excel based system for updating and
+                              adding new products in the online store from
+                              scratch
+                            </li>
+                            <li>Acceptance testing of an online store</li>
+                            <li>Online store information support</li>
+                            <li>Consultation of buyers, sale of goods</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Research and Design Institute for Atomic and Power Pump building -->
+                      <div class="experiences__company">
+                        <div class="experiences__company-header">
+                          <span class="experiences__company-header-durability">
+                            Apr 2016 - Aug 2016
+                          </span>
+                          <h3 class="experiences__company-header-name">
+                            Public Joint-Stock Company "Research and Design
+                            Institute for Atomic and Power Pump building"
+                          </h3>
+                        </div>
+                        <div class="experiences__company-project">
+                          <span class="experiences__company-project-role">
+                            Structural Engineer
+                          </span>
+                          <ul
+                            class="experiences__company-project-responsibilities"
+                          >
+                            <li>
+                              Preparation of design documentation of bearing
+                              assemblies of pumps and clutches
+                            </li>
+                            <li>
+                              The coordination of the developed documentation
+                              with other structural divisions
+                            </li>
+                            <li>Support of developments in production</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- PJSC «Sumy NPO» -->
+                    <div class="experiences__company">
+                      <div class="experiences__company-header">
+                        <span class="experiences__company-header-durability">
+                          Feb 2012 - Mar 2016
+                        </span>
+                        <h3 class="experiences__company-header-name">
+                          Public Joint-Stock Company «Sumy NPO»
+                        </h3>
+                      </div>
+                      <div class="experiences__company-project">
+                        <span class="experiences__company-project-role">
+                          Structural Engineer
+                        </span>
+                        <ul
+                          class="experiences__company-project-responsibilities"
+                        >
+                          <li>
+                            3D modeling (Inventor, Pro Engineer), preparation of
+                            design documentation (AutoCAD) of gas-pumping units
+                          </li>
+                          <li>
+                            Development and accompanying the projected units
+                          </li>
+                          <li>Air cleaning system calculation (ANSYS CFX)</li>
+                          <li>
+                            The coordination of the developed documentation with
+                            other structural divisions
+                          </li>
+                          <li>
+                            Support of developments in production and
+                            commissioning
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="additional-info">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header header-text">
+                    Education
+                  </h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                    >
+                      2007 - 2012
+                    </span>
+                    <h3 class="additional-info__education-university-name">
+                      Sumy State University
+                    </h3>
+                    <p class="additional-info__education-university-speciality">
+                      Studied at the Mechanical Engineering department. Master’s
+                      degree in Mechanical Engineering (Diploma with Honors)
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
